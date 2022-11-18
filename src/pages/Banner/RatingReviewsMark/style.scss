@@ -1,0 +1,14 @@
+.rating-reviews-mark {
+    bottom: -55px;
+    width: 100%;
+
+    div {
+        // position: absolute;
+
+        background: url("../../../assets/image/badge-4-8.svg");
+        height: 127.5px;
+        width: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,47 @@
+@import '../../../assets/css/global';
+
+.section {
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+
+    h1 {
+        font-weight: 700;
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .search-wrapper {
+        input {
+            padding: 15px 20px;
+            border-right: 1px solid #ddd;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .search-btn {
+            padding: 15px 20px;
+            background-color: $primary-color;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .sponsored {
+        img {
+            opacity: 0.6;
+        }
+    }
+}
